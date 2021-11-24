@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 //especially after using
 //the restroom.
 
+//To check that you have wear mask properly make sure your mouth and nose  are cover. Click on check  button to open camera  and check.
 
 //STAND
 //T A L L

@@ -17,4 +17,19 @@
     <string name="get_vaccinated_when_it_s_your_turn_follow_local_guidance_about_vaccination">Get vaccinated when it\'s your turn. Follow local guidance about vaccination.</string>
     <string name="how_to_sneeze">How To Sneeze</string>
     <string name="cover_your_nose_and_mouth_with_your_bent_elbow_or_a_tissue_when_you_cough_or_sneeze">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</string>
+    <string name="carry_cleaners">Carry Cleaners</string>
+    <string name="carry_cleaners_antiviral_wipes_alcohol_pads_hand_sanitizer_if_you_can_find_some_keep_them_in_your_car_so_you_have_them_handy_and_carry_them_around_when_you_go_out">CARRY CLEANERS // Antiviral wipes // Alcohol pads // Hand sanitizer //(if you can find //some) //Keep them in your car so you //have them handy, and carry //them around when you go out.</string>
+    <string name="lather_up">Lather Up!</string>
+    <string name="wash_your_hands_for_at_least_20_seconds_with_soap_and_water_especially_after_using_the_restroom">Wash your hands for at least //20 seconds with soap and water, //especially after using //the restroom.</string>
+    <string name="stand_tall">Stand Tall</string>
+    <string name="avoid_leaning_against_walls_counters_and_railings_do_not_sit_on_floors_or_steps">Avoid leaning against walls, counters, and railings. Do not sit on floors or steps.</string>
+    <string name="hand_awareness">Hand Awareness</string>
+    <string name="limit_the_number_of_surfaces_you_touch_especially_when_you_are_in_public_place">Limit the number of surfaces you touch especially when you are in public place.</string>
+    <string name="face_off">Face Off!</string>
+    <string name="we_know_it_s_tough_but_keep_your_hands_off_your_face_eyes_mouth_and_hair">We know it’s tough— but keep your hands off your face, eyes, mouth, and hair.</string>
+    <string name="keep_everything_clean">Keep Everything Clean</string>
+    <string name="especially_all_high_touch_surfaces_in_your_home_and_car_also_be_sure_to_clean_your_hands_before_and_after_entering_your_home_and_car">Especially all high-touch surfaces in your home and car. Also, be sure to clean your hands before and after entering your home and car.</string>
+    <string name="check_your_mask">Check Your Mask</string>
+    <string name="check">CHECK</string>
+    <string name="to_check_that_you_have_weared_mask_properly_make_sure_your_mouth_and_nose_are_coverd_click_on_check_button_to_open_camera_and_check">To check that you have weared mask properly make sure your mouth and nose are coverd. Click on check button to open camera and check.</string>
 </resources>
