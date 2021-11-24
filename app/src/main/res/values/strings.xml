@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">COVID PROTECTOR</string>
+    <string name="main_image">sanitizer,gloves andhandwash image</string>
+    <string name="main_image_home">sanitizer,gloves and handwash image</string>
+    <string name="wear_mask">Wear Mask</string>
+    <string name="wear_a_mask_in_public_especially_indoors_when_physical_distancing_is_not_possible">Wear a mask in public, especially indoors when physical distancing is not possible.</string>
+    <string name="description">an image</string>
+    <string name="social_distancing">Social Distancing</string>
+    <string name="maintain_a_safe_distance_from_others_at_least_2_metre_or_6_feet_even_if_they_don_t_appear_to_be_sick">Maintain a safe distance from others (at least 2 metre or 6 feet), even if they don\'t appear to be sick.</string>
+    <string name="next"><![CDATA[NEXT>]]></string>
+    <string name="stay_home">Stay Home</string>
+    <string name="stay_home_if_you_feel_unwell">Stay home if you feel unwell.</string>
+    <string name="go_back_home">GO BACK HOME</string>
+    <string name="wash_your_hands">Wash Your Hands</string>
+    <string name="clean_your_hands_often_use_soap_and_water_or_an_alcohol_based_hand_rub_or_sanitizer">Clean your hands often. Use soap and water, or an alcohol-based hand rub, or sanitizer.</string>
+    <string name="get_vaccinated">Get vaccinated</string>
+    <string name="get_vaccinated_when_it_s_your_turn_follow_local_guidance_about_vaccination">Get vaccinated when it\'s your turn. Follow local guidance about vaccination.</string>
+    <string name="how_to_sneeze">How To Sneeze</string>
+    <string name="cover_your_nose_and_mouth_with_your_bent_elbow_or_a_tissue_when_you_cough_or_sneeze">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</string>
+</resources>
