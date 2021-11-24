@@ -18,3 +18,52 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(ad);
     }
 }
+//When_You_Are_Out_Of_Home_1
+
+//CARRY CLEANERS
+// Antiviral wipes
+// Alcohol pads
+// Hand sanitizer
+//(if you can find
+//some)
+//Keep them in your car so you
+//have them handy, and carry
+//them around when you go out.
+
+
+//LATHER UP!
+//Wash your hands for at least
+//20 seconds with soap & water,
+//especially after using
+//the restroom.
+
+
+//STAND
+//T A L L
+//Avoid
+//leaning
+//against
+//walls,
+//counters,
+//& railings.
+//Do not
+//sit on
+//floors
+//or steps.
+
+
+//HAND AWARENESS
+//Limit the number
+//of surfaces you touch.
+
+//FACE OFF!
+//We know it’s tough—
+//but keep your hands off your
+//face, eyes, mouth, & hair.
+
+//KEEP EVERYTHING
+//—CLEAN—
+//Especially all high-touch surfaces
+//in your home & car. Also, be sure to
+//clean your hands before and after
+//entering your home & car.

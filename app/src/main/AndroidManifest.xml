@@ -10,35 +10,53 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COVIDPROTECTOR">
         <activity
+            android:name=".When_You_Are_Out_Of_Home_6"
+            android:exported="false" />
+        <activity
+            android:name=".When_You_Are_Out_Of_Home_5"
+            android:exported="false" />
+        <activity
+            android:name=".When_You_Are_Out_Of_Home_4"
+            android:exported="false" />
+        <activity
+            android:name=".When_You_Are_Out_Of_Home_3"
+            android:exported="false" />
+        <activity
+            android:name=".When_You_Are_Out_Of_Home_2"
+            android:exported="false" />
+        <activity
+            android:name=".When_You_Are_Out_Of_Home_1"
+            android:exported="false" />
+        <activity
             android:name=".prevent_spread_6"
             android:exported="false"
             android:label="Prevent Spread"
-            android:parentActivityName=".prevent_spread_5"/>
+            android:parentActivityName=".prevent_spread_5" />
         <activity
             android:name=".prevent_spread_5"
             android:exported="false"
             android:label="Prevent Spread"
-            android:parentActivityName=".prevent_spread_4"/>
+            android:parentActivityName=".prevent_spread_4" />
         <activity
             android:name=".prevent_spread_4"
             android:exported="false"
             android:label="Prevent Spread"
-            android:parentActivityName=".prevent_spread_3"/>
+            android:parentActivityName=".prevent_spread_3" />
         <activity
             android:name=".prevent_spread_3"
             android:exported="false"
             android:label="Prevent Spread"
-            android:parentActivityName=".prevent_spread_2"/>
+            android:parentActivityName=".prevent_spread_2" />
         <activity
             android:name=".prevent_spread_2"
             android:exported="false"
             android:label="Prevent Spread"
-            android:parentActivityName=".prevent_spread_1"/>
+            android:parentActivityName=".prevent_spread_1" />
         <activity
             android:name=".prevent_spread_1"
             android:exported="false"
             android:label="Prevent Spread"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
