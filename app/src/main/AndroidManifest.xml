@@ -11,25 +11,39 @@
         android:theme="@style/Theme.COVIDPROTECTOR">
         <activity
             android:name=".When_You_Are_Out_Of_Home_7"
-            android:exported="false" />
+            android:exported="false"
+            android:label="When You Are Out Of Home"
+            android:parentActivityName=".When_You_Are_Out_Of_Home_6"/>
         <activity
             android:name=".When_You_Are_Out_Of_Home_6"
-            android:exported="false" />
+            android:exported="false"
+            android:label="When You Are Out Of Home"
+            android:parentActivityName=".When_You_Are_Out_Of_Home_5"/>
         <activity
             android:name=".When_You_Are_Out_Of_Home_5"
-            android:exported="false" />
+            android:exported="false"
+            android:label="When You Are Out Of Home"
+            android:parentActivityName=".When_You_Are_Out_Of_Home_4"/>
         <activity
             android:name=".When_You_Are_Out_Of_Home_4"
-            android:exported="false" />
+            android:exported="false"
+            android:label="When You Are Out Of Home"
+            android:parentActivityName=".When_You_Are_Out_Of_Home_3"/>
         <activity
             android:name=".When_You_Are_Out_Of_Home_3"
-            android:exported="false" />
+            android:exported="false"
+            android:label="When You Are Out Of Home"
+            android:parentActivityName=".When_You_Are_Out_Of_Home_2"/>
         <activity
             android:name=".When_You_Are_Out_Of_Home_2"
-            android:exported="false" />
+            android:exported="false"
+            android:label="When You Are Out Of Home"
+            android:parentActivityName=".When_You_Are_Out_Of_Home_1"/>
         <activity
             android:name=".When_You_Are_Out_Of_Home_1"
-            android:exported="false" />
+            android:exported="false"
+            android:label="When You Are Out Of Home"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".prevent_spread_6"
             android:exported="false"
