@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/COVIDPROTECTOR/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2526041666666667" />
+        <entry key="..\:/COVIDPROTECTOR/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2526041666666667" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_prevent_spread1.xml" value="0.23645833333333333" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_prevent_spread2.xml" value="0.23645833333333333" />
