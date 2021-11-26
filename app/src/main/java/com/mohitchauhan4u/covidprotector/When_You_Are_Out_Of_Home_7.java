@@ -1,10 +1,9 @@
 package com.mohitchauhan4u.covidprotector;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class When_You_Are_Out_Of_Home_7 extends AppCompatActivity {
 
@@ -17,4 +16,4 @@ public class When_You_Are_Out_Of_Home_7 extends AppCompatActivity {
         Intent intent=new Intent(this,MainActivity.class);
         startActivity(intent);
     }
-}
+    }
