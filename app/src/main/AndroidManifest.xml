@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COVIDPROTECTOR">
         <activity
+            android:name=".About_Covid"
+            android:exported="false" />
+        <activity
             android:name=".When_You_Are_Out_Of_Home_7"
             android:exported="false"
             android:label="When You Are Out Of Home"
