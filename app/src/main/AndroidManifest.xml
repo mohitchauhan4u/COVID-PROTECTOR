@@ -10,15 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COVIDPROTECTOR">
         <activity
-            android:name=".FaceMaskDetector"
-            android:exported="false" />
-        <activity
-            android:name=".Face_detector"
-            android:exported="false" />
-        <activity
-            android:name=".FAce_detector"
-            android:exported="false" />
-        <activity
             android:name=".About_Covid"
             android:exported="false" />
         <activity
