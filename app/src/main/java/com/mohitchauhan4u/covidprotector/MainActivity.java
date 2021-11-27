@@ -11,16 +11,12 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity{
     ListView listView;
-    String[] arr={"Prevent the spread of COVID-19","Check if you have COVID-19 Symptoms","Precautions to take when you are out of home","About COVID-19"};
+    String[] arr={"Prevent the spread of COVID-19","Check if you have COVID-19 symptoms","Precautions to take when you are out of home","About COVID-19"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView=findViewById(R.id.listView);
-        /*using built in array adapter
-        ArrayAdapter<String> ad=new ArrayAdapter<>(this, android.R.layout.simple_expandable_list_item_1,arr);
-        listView.setAdapter(ad);*/
-
     //using custom adapter
         CustomAdapter ad=new CustomAdapter(this,R.layout.custom_laytout,arr);
         listView.setAdapter(ad);

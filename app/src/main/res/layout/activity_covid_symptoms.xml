@@ -9,13 +9,15 @@
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="0dp"
-        android:layout_height="205dp"
+        android:layout_height="170dp"
         android:contentDescription="@string/description"
+        app:layout_constraintBottom_toTopOf="@+id/yes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/covid_symptoms_doctor_image" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/covid_test_topper" />
 
     <TextView
         android:id="@+id/symptoms"
@@ -23,13 +25,14 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/textview"
-        android:textSize="20sp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
         android:id="@+id/yes"
@@ -46,11 +49,22 @@
         android:id="@+id/no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="152dp"
         android:layout_marginEnd="3dp"
         android:layout_marginRight="3dp"
         android:text="@string/no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/yes"
         app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
