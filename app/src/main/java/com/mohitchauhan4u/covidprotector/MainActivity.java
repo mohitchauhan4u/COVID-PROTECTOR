@@ -32,14 +32,14 @@ public class MainActivity extends AppCompatActivity{
                     Intent intent=new Intent(MainActivity.this,prevent_spread_1.class);
                     startActivity(intent);
                 }else if(position==1){
-//                    Intent intent=new Intent(MainActivity.this,prevent_spread_1.class);
-//                    startActivity(intent);
+                    Intent intent=new Intent(MainActivity.this,CovidSymptoms.class);
+                    startActivity(intent);
                 }else if(position==2){
                     Intent intent=new Intent(MainActivity.this,When_You_Are_Out_Of_Home_1.class);
                     startActivity(intent);
                 }else if(position==3){
-                    Intent intent=new Intent(MainActivity.this,About_Covid.class);
-                    startActivity(intent);
+//                    Intent intent=new Intent(MainActivity.this,About_Covid.class);
+//                    startActivity(intent);
                 }
             }
         });
