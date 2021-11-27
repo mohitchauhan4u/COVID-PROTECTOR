@@ -17,8 +17,14 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView=findViewById(R.id.listView);
+        /*using built in array adapter
         ArrayAdapter<String> ad=new ArrayAdapter<>(this, android.R.layout.simple_expandable_list_item_1,arr);
+        listView.setAdapter(ad);*/
+
+    //using custom adapter
+        CustomAdapter ad=new CustomAdapter(this,R.layout.custom_laytout,arr);
         listView.setAdapter(ad);
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
