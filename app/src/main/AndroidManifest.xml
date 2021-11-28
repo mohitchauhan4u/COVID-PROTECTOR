@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COVIDPROTECTOR">
         <activity
+            android:name=".AboutCovid"
+            android:exported="false"
+            android:label="FAQ's About COVID-19"
+            android:parentActivityName=".MainActivity2" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity

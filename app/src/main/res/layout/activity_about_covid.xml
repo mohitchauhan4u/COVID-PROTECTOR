@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutCovid">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_corona_virus"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/corona_viruses_are_a_large_family_of_viruses_which_may_cause_illness_in_animals_or_humans_in_humans_several_coronaviruses_are_known_to_cause_respiratory_infections_ranging_from_the_common_cold_to_more_severe_diseases_such_as_middle_east_respiratory_syndrome_mers_and_severe_acute_respiratory_syndrome_sars_the_most_recently_discovered_coronavirus_causes_coronavirus_disease_covid_19"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_covid_19"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/covid_19_is_the_infectious_disease_caused_by_the_most_recently_discovered_corona_virus_this_new_virus_and_disease_were_unknown_before_the_outbreak_began_in_wuhan_china_in_december_2019"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/how_does_covid_19_spread"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/people_can_catch_covid_19_from_others_who_have_the_virus_the_disease_can_spread_from_person_to_person_through_small_droplets_from_the_nose_or_mouth_which_are_spread_when_a_person_with_covid_19_coughs_or_exhales_these_droplets_land_on_objects_and_surfaces_around_the_person_other_people_then_catch_covid_19_by_touching_these_objects_or_surfaces_then_touching_their_eyes_nose_or_mouth_people_can_also_catch_covid_19_if_they_breathe_in_droplets_from_a_person_with_covid_19_who_coughs_out_or_exhales_droplets_this_is_why_it_is_important_to_stay_more_than_1_meter_3_feet_away_from_a_person_who_is_sick"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/can_the_virus_that_causes_covid_19_be_transmitted_through_the_air"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/studies_to_date_suggest_that_the_virus_that_causes_covid_19_is_mainly_transmitted_through_contact_with_respiratory_droplets_rather_than_through_the_air"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/can_covid_19_be_caught_from_a_person_who_has_no_symptoms"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/the_main_way_the_disease_spreads_is_through_respiratory_droplets_expelled_by_someone_who_is_coughing_the_risk_of_catching_covid_19_from_someone_with_no_symptoms_at_all_is_very_low_however_many_people_with_covid_19_experience_only_mild_symptoms_this_is_particularly_true_at_the_early_stages_of_the_disease_it_is_therefore_possible_to_catch_covid_19_from_someone_who_has_for_example_just_a_mild_cough_and_does_not_feel_ill"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/can_i_catch_covid_19_from_the_feces_of_someone_with_the_disease"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/the_risk_of_catching_covid_19_from_the_feces_of_an_infected_person_appears_to_be_low_while_initial_investigations_suggest_the_virus_may_be_present_in_feces_in_some_cases_spread_through_this_route_is_not_a_main_feature_of_the_outbreak_the_ongoing_research_on_the_ways_covid_19_is_spread_and_will_continue_to_share_new_findings_because_this_is_a_risk_however_it_is_another_reason_to_clean_hands_regularly_after_using_the_bathroom_and_before_eating"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/how_likely_am_i_to_catch_covid_19"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/the_risk_depends_on_where_you_are_and_more_specifically_whether_there_is_a_covid_19_outbreak_unfolding_there_for_most_people_in_most_locations_the_risk_of_catching_covid_19_is_still_low_however_there_are_now_places_around_the_world_cities_or_areas_where_the_disease_is_spreading_for_people_living_in_or_visiting_these_areas_the_risk_of_catching_covid_19_is_higher_governments_and_health_authorities_are_taking_vigorous_action_every_time_a_new_case_of_covid_19_is_identified_be_sure_to_comply_with_any_local_restrictions_on_travel_movement_or_large_gatherings_cooperating_with_disease_control_efforts_will_reduce_your_risk_of_catching_or_spreading_covid_19_covid_19_outbreaks_can_be_contained_and_transmission_stopped_as_has_been_shown_in_china_and_some_other_countries_unfortunately_new_outbreaks_can_emerge_rapidly_it_s_important_to_be_aware_of_the_situation_where_you_are_or_intend_to_go"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/should_i_worry_about_covid_19"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/illness_due_to_covid_19_infection_is_generally_mild_especially_for_children_and_young_adults_however_it_can_cause_serious_illness_about_1_in_every_5_people_who_catch_it_need_hospital_care_it_is_therefore_quite_normal_for_people_to_worry_about_how_the_covid_19_outbreak_will_affect_them_and_their_loved_ones_we_can_channel_our_concerns_into_actions_to_protect_ourselves_our_loved_ones_and_our_communities_first_and_foremost_among_these_actions_is_regular_and_thorough_hand_washing_and_good_respiratory_hygiene_secondly_keep_informed_and_follow_the_advice_of_the_local_health_authorities_including_any_restrictions_put_in_place_on_travel_movement_and_gatherings"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/are_antibiotics_effective_in_preventing_or_treating_the_covid_19"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_antibiotics_do_not_work_against_viruses_they_only_work_on_bacterial_infections_covid_19_is_caused_by_a_virus_so_antibiotics_do_not_work_antibiotics_should_not_be_used_as_a_means_of_prevention_or_treatment_of_covid_19_they_should_only_be_used_as_directed_by_a_physician_to_treat_a_bacterial_infection"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/can_i_catch_covid_19_from_my_pet"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/while_there_has_been_one_instance_of_a_dog_being_infected_in_hong_kong_to_date_there_is_no_evidence_that_a_dog_cat_or_any_pet_can_transmit_covid_19_covid_19_is_mainly_spread_through_droplets_produced_when_an_infected_person_coughs_sneezes_or_speaks_to_protect_yourself_clean_your_hands_frequently_and_thoroughly_we_continues_to_monitor_the_latest_research_on_this_and_other_covid19_topics_and_will_update_as_new_findings_are_available"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/how_long_does_the_virus_survive_on_surfaces"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it_is_not_certain_how_long_the_virus_that_causes_covid_19_survives_on_surfaces_but_it_seems_to_behave_like_other_corona_viruses_studies_suggest_that_corona_viruses_including_preliminary_information_on_the_covid_19_virus_may_persist_on_surfaces_for_a_few_hours_or_up_to_several_days_this_may_vary_under_different_conditions_e_g_type_of_surface_temperature_or_humidity_of_the_environment_if_you_think_a_surface_may_be_infected_clean_it_with_simple_disinfectant_to_kill_the_virus_and_protect_yourself_and_others_clean_your_hands_with_an_alcohol_based_hand_rub_or_wash_them_with_soap_and_water_avoid_touching_your_eyes_mouth_or_nose"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/is_it_safe_to_receive_a_package_from_any_area_where_covid_19_has_been_reported"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yes_the_likelihood_of_an_infected_person_contaminating_commercial_goods_is_low_and_the_risk_of_catching_the_virus_that_causes_covid_19_from_a_package_that_has_been_moved_travelled_and_exposed_to_different_conditions_and_temperature_is_also_low"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/who_is_at_risk_of_developing_severe_illness"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/while_we_are_still_learning_about_how_covid_2019_affects_people_older_persons_and_persons_with_pre_existing_medical_conditions_such_as_high_blood_pressure_heart_disease_lung_disease_cancer_or_diabetes_appear_to_develop_serious_illness_more_often_than_others"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/question15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/protection_measures_for_persons_who_are_in_or_have_recently_visited_past_14_days_areas_where_covid_19_is_spreading"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/answer15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/follow_the_guidance_outlined_above_protection_measures_for_everyone_o_self_isolate_by_staying_at_home_if_you_begin_to_feel_unwell_even_with_mild_symptoms_such_as_headache_low_grade_fever_37_3_c_or_above_and_slight_runny_nose_until_you_recover_if_it_is_essential_for_you_to_have_someone_bring_you_supplies_or_to_go_out_e_g_to_buy_food_then_wear_a_mask_to_avoid_infecting_other_people_why_avoiding_contact_with_others_and_visits_to_medical_facilities_will_allow_these_facilities_to_operate_more_effectively_and_help_protect_you_and_others_from_possible_covid_19_and_other_viruses_o_if_you_develop_fever_cough_and_difficulty_breathing_seek_medical_advice_promptly_as_this_may_be_due_to_a_respiratory_infection_or_other_serious_condition_call_in_advance_and_tell_your_provider_of_any_recent_travel_or_contact_with_travelers_why_calling_in_advance_will_allow_your_health_care_provider_to_quickly_direct_you_to_the_right_health_facility_this_will_also_help_to_prevent_possible_spread_of_covid_19_and_other_viruses"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
