@@ -4,40 +4,41 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity{
-    ListView listView;
-    String[] arr={"Prevent the spread of COVID-19","Check if you have COVID-19 symptoms","Precautions to take when you are out of home","About COVID-19"};
+    private static int SPLASH_SCREEN_TIME_OUT=2500;
+    //After completion of 2000 ms, the next activity will get started.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        listView=findViewById(R.id.listView);
-    //using custom adapter
-        CustomAdapter ad=new CustomAdapter(this,R.layout.custom_laytout,arr);
-        listView.setAdapter(ad);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //This method is used so that your splash activity
+        //can cover the entire screen.
+
+        setContentView(R.layout.activity_main);
+        //this will bind your MainActivity.class file with activity_main.
+
+        new Handler().postDelayed(new Runnable() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(position==0){
-                    Intent intent=new Intent(MainActivity.this,prevent_spread_1.class);
-                    startActivity(intent);
-                }else if(position==1){
-                    Intent intent=new Intent(MainActivity.this,CovidSymptoms.class);
-                    startActivity(intent);
-                }else if(position==2){
-                    Intent intent=new Intent(MainActivity.this,When_You_Are_Out_Of_Home_1.class);
-                    startActivity(intent);
-                }else if(position==3){
-//                    Intent intent=new Intent(MainActivity.this,About_Covid.class);
-//                    startActivity(intent);
-                }
+            public void run() {
+                Intent i=new Intent(MainActivity.this,
+                        MainActivity2.class);
+                //Intent is used to switch from one activity to another.
+
+                startActivity(i);
+                //invoke the SecondActivity.
+
+                finish();
+                //the current activity will get finished.
             }
-        });
+        }, SPLASH_SCREEN_TIME_OUT);
     }
 }

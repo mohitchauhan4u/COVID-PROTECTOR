@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COVIDPROTECTOR">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".CovidSymptoms"
             android:exported="false"
             android:label="COVID-19 symptoms"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".When_You_Are_Out_Of_Home_7"
             android:exported="false"

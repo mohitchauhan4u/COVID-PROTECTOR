@@ -14,7 +14,7 @@ public class prevent_spread_6 extends AppCompatActivity {
         setContentView(R.layout.activity_prevent_spread6);
     }
     public void openActivity(View v){
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,MainActivity2.class);
         startActivity(intent);
     }
 }

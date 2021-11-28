@@ -13,7 +13,7 @@ public class When_You_Are_Out_Of_Home_7 extends AppCompatActivity {
         setContentView(R.layout.activity_when_you_are_out_of_home7);
     }
     public void openActivity(View v){
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,MainActivity2.class);
         startActivity(intent);
     }
     }
