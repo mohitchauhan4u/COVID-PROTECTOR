@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2526041666666667" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2526041666666667" />
+        <entry key="..\:/COVIDPROTECTOR/app/src/main/res/drawable/ic_virus_svgrepo_com.xml" value="0.13125" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_about_covid.xml" value="0.11424257674886763" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_covid_symptoms.xml" value="0.264" />
+        <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_covid_tracker.xml" value="0.264" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_face_detection.xml" value="0.23645833333333333" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/COVIDPROTECTOR/app/src/main/res/layout/activity_main2.xml" value="0.23645833333333333" />
@@ -36,5 +38,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

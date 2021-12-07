@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">COVID PROTECTOR</string>
-    <string name="main_image">sanitizer,gloves andhandwash image</string>
-    <string name="main_image_home">sanitizer,gloves and handwash image</string>
+    <string name="main_image">sanitizer,gloves HandWash image</string>
+    <string name="main_image_home">sanitizer,gloves and HandWash image</string>
     <string name="wear_mask">2.Wear Mask</string>
     <string name="wear_a_mask_in_public_especially_indoors_when_physical_distancing_is_not_possible">Wear a mask in public, especially indoors when physical distancing is not possible.</string>
     <string name="description">an image</string>
@@ -67,4 +67,14 @@
     <string name="protection_measures_for_persons_who_are_in_or_have_recently_visited_past_14_days_areas_where_covid_19_is_spreading">Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading</string>
     <string name="follow_the_guidance_outlined_above_protection_measures_for_everyone_o_self_isolate_by_staying_at_home_if_you_begin_to_feel_unwell_even_with_mild_symptoms_such_as_headache_low_grade_fever_37_3_c_or_above_and_slight_runny_nose_until_you_recover_if_it_is_essential_for_you_to_have_someone_bring_you_supplies_or_to_go_out_e_g_to_buy_food_then_wear_a_mask_to_avoid_infecting_other_people_why_avoiding_contact_with_others_and_visits_to_medical_facilities_will_allow_these_facilities_to_operate_more_effectively_and_help_protect_you_and_others_from_possible_covid_19_and_other_viruses_o_if_you_develop_fever_cough_and_difficulty_breathing_seek_medical_advice_promptly_as_this_may_be_due_to_a_respiratory_infection_or_other_serious_condition_call_in_advance_and_tell_your_provider_of_any_recent_travel_or_contact_with_travelers_why_calling_in_advance_will_allow_your_health_care_provider_to_quickly_direct_you_to_the_right_health_facility_this_will_also_help_to_prevent_possible_spread_of_covid_19_and_other_viruses">Follow the guidance outlined above (Protection measures for everyone) o Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people. Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses. o If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers. Why? Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also help to prevent possible spread of COVID-19 and other viruses.</string>
     <string name="the_main_way_the_disease_spreads_is_through_respiratory_droplets_expelled_by_someone_who_is_coughing_the_risk_of_catching_covid_19_from_someone_with_no_symptoms_at_all_is_very_low_however_many_people_with_covid_19_experience_only_mild_symptoms_this_is_particularly_true_at_the_early_stages_of_the_disease_it_is_therefore_possible_to_catch_covid_19_from_someone_who_has_for_example_just_a_mild_cough_and_does_not_feel_ill">The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill.</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/rubikbold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/rubiklight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/rubikregular</string>
+    <string name="covid_tracker">Covid Details</string>
+    <string name="confirm">Confirm</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="death">Death</string>
+    <string name="tests">Total Tests</string>
+    <string name="zero">0</string>
 </resources>
